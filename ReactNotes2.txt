@@ -1,0 +1,35 @@
+1. What are the biggest limitations of React?
+Following is the list of the biggest limitations of React:
+
+React is just a library. It is not a complete framework.
+It has a huge library which takes time to understand.
+It may be difficult for the new programmers to understand and code.
+React uses inline templating and JSX, which may be difficult and act as a barrier. It also makes the coding complex.
+
+2. Why we use JSX?
+It is faster than regular JavaScript because it performs optimization while translating the code to JavaScript.
+Instead of separating technologies by putting markup and logic in separate files, React uses components that contain both.
+t is type-safe, and most of the errors can be found at compilation time.
+It makes easier to create templates.
+
+3. Explain the purpose of render() in React.
+It is mandatory for each React component to have a render() function. Render function is used to return the HTML which you want to display in a component. If you need to rendered more than one HTML element, you need to grouped together inside single enclosing tag (parent tag) such as <div>, <form>, <group> etc. This function returns the same result each time it is invoked.
+
+4. What is a State in React?
+The State is an updatable structure which holds the data and information about the component. It may be changed over the lifetime of the component in response to user action or system event. It is the heart of the react component which determines the behavior of the component and how it will render. It must be kept as simple as possible.
+
+5. What is arrow function in React?
+The arrow function is basically an anonymous function which accepts a fixed number or arguments, and operates in the context of the enclosing scope.
+
+6.Explain the Lists in React.
+Lists are used to display data in an ordered format. In React, Lists can be created in a similar way as we create it in JavaScript. We can traverse the elements of the list using the map() function.
+
+7. What is the significance of keys in React?
+A key is a unique identifier. In React, it is used to identify which items have changed, updated, or deleted from the Lists.
+
+8. What is create-react-app?
+Create React App is a tool introduced by Facebook to build React applications. It provides you to create single-page React applications.
+
+9.  Is it possible for a web browser to read JSX directly?
+Web browsers can't read JSX directly. This is because the web browsers are built to read the regular JS objects only, and JSX is not a regular JavaScript object.
+
