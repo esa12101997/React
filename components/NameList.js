@@ -2,17 +2,17 @@ import React from 'react'
 import Person from './Person'
 
 function NameList() {
-  const names = ['Bruce', 'Clark', 'Diana', 'Bruce']
+  const names = ['Riya', 'Ritu', 'Disha', 'Carol']
   const persons = [
     {
       id: 1,
       name: 'Riya',
       age: 30,
-      skill: 'Ritu'
+      skill: 'React'
     },
     {
       id: 2,
-      name: 'Carol',
+      name: 'Ritu',
       age: 25,
       skill: 'Angular'
     },
