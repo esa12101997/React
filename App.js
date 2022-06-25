@@ -11,16 +11,27 @@ import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
+import Stylesheet from './components/Stylesheet';
+import Inline from './components/Inline';
+import './appStyles.css'
+import styles from './appStyles.module.css'
+import Form from './components/Form';
+import LifecycleA from './components/LifecycleA';
 class App extends Component {
   render() {
   return (
     <div className="App">
-      <FunctionClick/>
+      <Form/>
+      {/* <FunctionClick/>
       <ClassClick/>
       <EventBind/>
       <ParentComponent/>
       <UserGreeting/>
-      <NameList/>
+      <NameList/> */}
+      {/* <Stylesheet primary={true} />
+      <Inline />
+      <h1 className='error'>Error</h1>
+        <h1 className={styles.success}>Success</h1> */}
       { /*<Counter></Counter>*/}
       { /*<Greet name="Bruce" heroName="Batman">
         <p>This is children props</p>
@@ -34,7 +45,8 @@ class App extends Component {
       {/*<Welcome name="Clark" heroName="Superman"></Welcome>
       <Welcome name="Diana" heroName="Wonder Woman"></Welcome>
       <Hello></Hello>*/ }
-      <Message></Message>
+      {/* <Message></Message> */}
+      <LifecycleA/>
     </div>
   );
 }
