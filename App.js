@@ -17,6 +17,14 @@ import './appStyles.css'
 import styles from './appStyles.module.css'
 import Form from './components/Form';
 import LifecycleA from './components/LifecycleA';
+import FragmentDemo from './components/FragmentDemo';
+import Table from './components/Table';
+import Columns from './components/Columns';
+import PureComp from './components/PureComp';
+import RegComp from './components/RegComp';
+import ParentComp from './components/ParentComp';
+import MemoComp from './components/MemoComp';
+import RefsDemo from './components/RefsDemo';
 class App extends Component {
   render() {
   return (
@@ -46,7 +54,13 @@ class App extends Component {
       <Welcome name="Diana" heroName="Wonder Woman"></Welcome>
       <Hello></Hello>*/ }
       {/* <Message></Message> */}
-      <LifecycleA/>
+      {/* <LifecycleA/> */}
+      <FragmentDemo/>
+      <Table/>
+      <ParentComp/>
+      <RegComp/>
+      <MemoComp/>
+      <RefsDemo/>
     </div>
   );
 }
